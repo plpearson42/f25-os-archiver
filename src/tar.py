@@ -3,7 +3,7 @@
 import os, sys
 from sys import argv
 
-sys.dont_write_bytecode = True
+sys.path.append("../lib")  # for framedIO
 
 import framedIO as io 
 
